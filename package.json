@@ -1,0 +1,20 @@
+{
+  "name": "express-static-server",
+  "description": "Simple app to serve assets static folder. Cors and logging preconfigured.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Meyhem/express-static-server"
+  },
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
